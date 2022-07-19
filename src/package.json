@@ -43,7 +43,7 @@
     "report:js": "./node_modules/.bin/webpack --config ./webpack.config.js --env local --env onlyjs --env analyzerMode && webpack-bundle-analyzer ./js_report/cartridges/app_ks_storefront.js.json -m static -r reports/app_ks_storefront.js.html"
   },
   "dependencies": {
-    "app_ks_storefront": "file:../../app_custom_storefront-master/src",
+    "app_ks_storefront": "file:../../LearnSFRADemoApp22/src",
     "bootstrap": "^4.6.1",
     "cleave.js": "^1.5.3",
     "flag-icon-css": "^2.9.0",
