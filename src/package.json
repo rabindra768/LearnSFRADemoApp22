@@ -22,7 +22,7 @@
     "compile": "webpack --config build-tools/compileCode/compile.js --mode=development",
     "compile:fonts": "node bin/Makefile compileFonts",
     "lint": "npm run lint:js && npm run lint:css",
-    "lint:css": "npx stylelint 'cartridges/app_mk_storefront/**/*.scss'",
+    "lint:css": "npx stylelint 'cartridges/app_ks_storefront/**/*.scss'",
     "lint:js": "sgmf-scripts --lint js",
     "init:isml": "./node_modules/.bin/isml-linter --init",
     "lint:isml": "./node_modules/.bin/isml-linter",
